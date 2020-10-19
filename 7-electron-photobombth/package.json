@@ -1,0 +1,19 @@
+{
+  "name": "7-electron-photobombth",
+  "productName": "Photobombth",
+  "version": "1.0.0",
+  "description": "Photobooth app",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rimraf Photobombth-* && electron-packager . --platform=win32  --arch=x64 --icon=app",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^15.1.0",
+    "electron-prebuilt": "^1.4.13",
+    "rimraf": "^3.0.2"
+  }
+}
